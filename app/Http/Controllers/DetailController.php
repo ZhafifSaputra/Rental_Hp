@@ -2,102 +2,27 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Produk;
 use Illuminate\Http\Request;
 
 class DetailController extends Controller
 {
-    // Android
-    function infinix()
+    public function showAndroid($id)
     {
-        return view('Android.infinix');
-    }
-    function oppo()
-    {
-        return view('Android.oppo');
+        $produk = Produk::with('gambarTambahan')->where('kategori', 'android')->findOrFail($id);
+        return view('produk.detail', compact('produk'));
     }
 
-    function realme()
+    public function showIphone($id)
     {
-        return view('Android.realme');
+        $produk = Produk::with('gambarTambahan')->where('kategori', 'iphone')->findOrFail($id);
+        return view('produk.detail', compact('produk'));
     }
 
-    function samsung()
+    public function showGaming($id)
     {
-        return view('Android.samsung');
+        $produk = Produk::with('gambarTambahan')->where('kategori', 'gaming')->findOrFail($id);
+        return view('produk.detail', compact('produk'));
     }
-
-    function vivo()
-    {
-        return view('Android.vivo');
-    }
-
-    function xiomi()
-    {
-        return view('Android.xiomi');
-    }
-
-
-
-    // Iphone
-    function iphone13()
-    {
-        return view('iphone.13');
-    }
-
-    function iphone15()
-    {
-        return view('iphone.15');
-    }
-
-    function iphone15plus()
-    {
-        return view('iphone.15plus');
-    }
-
-    function iphone15pro()
-    {
-        return view('iphone.15pro');
-    }
-
-    function iphone15promax()
-    {
-        return view('iphone.15promax');
-    }
-
-    function iphonexr()
-    {
-        return view('iphone.xr');
-    }
-
-
-    // Gaming
-    function black_shark()
-    {
-        return view('gaming.black_shark');
-    }
-
-    function gt5pro()
-    {
-        return view('gaming.gt5pro');
-    }
-
-    function gt20pro()
-    {
-        return view('gaming.gt20pro');
-    }
-
-    function iqoo13()
-    {
-        return view('gaming.iqoo13');
-    }
-
-    function rog()
-    {
-        return view('gaming.rog');
-    }
-
-    function zte()
-    {
-        return view('gaming.zte');
-    }
+    
 }

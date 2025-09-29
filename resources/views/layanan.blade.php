@@ -36,7 +36,7 @@
                             <div class="card-img">
                                 <img src="assets/img/service-hp.png" alt="" class="img-fluid">
                             </div>
-                            <h3>Service</h3>
+                            <h3><a href="/service"class="stretched-link">Service</a></h3>
                             <p> Perbaikan dan perawatan perangkat IT dengan profesional, memastikan perangkat Anda selalu
                                 dalam kondisi baik.</p>
                         </div>
@@ -58,7 +58,7 @@
                             <div class="card-img">
                                 <img src="assets/img/konsull.jpg" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="#" class="stretched-link">Konsultasi</a></h3>
+                            <h3><a href="https://wa.me/6285609336061?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20sewa%20perangkat" target="_blank"    class="stretched-link">Konsultasi</a></h3>
                             <p>Membantu memilih perangkat yang sesuai kebutuhan, memberikan rekomendasi produk yang tepat
                                 untuk kebutuhan Anda.</p>
                         </div>
@@ -75,7 +75,7 @@
                             <div class="card-img">
                                 <img src="assets/img/samsung.jpg" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="/android" class="stretched-link">android</a></h3>
+                            <h3><a href="/produk/android" class="stretched-link">android</a></h3>
                             <p>Sewa Smartphone Populer dari MetroRental
 
                                 Sewa smartphone dengan harga kompetitif dan fleksibilitas durasi sewa. Tersedia model
@@ -102,7 +102,7 @@
                                 <div class="card-img">
                                     <img src="assets/img/ip.jpg" alt="" class="img-fluid">
                                 </div>
-                                <h3><a href="/iphone" class="stretched-link">Iphone</a></h3>
+                                <h3><a href="/produk/iphone" class="stretched-link">Iphone</a></h3>
 
                                 <p>
                                     Sewa iPhone dari MetroRentalSewa iPhone dengan harga kompetitif dan fleksibilitas durasi
@@ -127,7 +127,7 @@
                             <div class="card-img">
                                 <img src="assets/img/rog.jpg" alt="" class="img-fluid">
                             </div>
-                            <h3><a href="/gaming" class="stretched-link">Gaming</a></h3>
+                            <h3><a href="/produk/gaming" class="stretched-link">Gaming</a></h3>
                             <p>Sewa Smartphone Gaming dari MetroRental
 
                                 Sewa smartphone gaming dengan harga kompetitif dan fleksibilitas durasi sewa. Tersedia model
